@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/templates/weather/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,28 @@
       <option name="presentableId" value="Default" />
       <updated>1585763106384</updated>
     </task>
+    <task id="LOCAL-00001" summary="created and linked page">
+      <created>1585767579385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585767579386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created and linked page" />
+    <option name="LAST_COMMIT_MESSAGE" value="created and linked page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1585767578655">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585767578655" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1585767581404">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585767581404" />
   </component>
 </project>
