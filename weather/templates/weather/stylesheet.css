@@ -1,0 +1,94 @@
+/* applies to everything
+
+*{}
+
+*/
+
+a{
+    text-decoration:none;
+    color:#000
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:black;
+}
+
+body{
+    background-color:lightgrey;
+
+    font-family: Arial , Helvetica, Sans-Serif;
+
+    font-size:16px;
+    font-weight:normal;
+
+    /*font: normal 16px Arial, Helvetica, Sans-Serif;*/
+
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+
+}
+
+.box-1{
+    background-color:#333;
+    color:#fff;
+/*    border-right:5px red solid;
+    border-left:5px red solid;
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+        border-top-style:dotted;
+
+    */
+
+    border: 5px red solid;
+    border-width:3px;
+    padding:20px;
+    margin:20px 0px;
+}
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    text-decoration:underline;
+    text-align:center;
+}
+
+.box-2{
+border:3px dotted #ccc;
+padding:20px;
+margin:20px 0;
+}
+
+.categories{
+    border:1px #000 solid;
+    padding:10px;
+    border-radius:15px;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul{
+    padding:15;
+    list-style:square;
+
+}
+
+.categories li {
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url("checkmark.png");
+}
