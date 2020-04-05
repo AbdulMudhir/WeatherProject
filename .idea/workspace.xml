@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="learning html">
-      <change afterPath="$PROJECT_DIR$/static/styles/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/templates/weather/stylesheet.css" afterDir="false" />
+    <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/stylesheet.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/templates/weather/stylesheet.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +38,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/weather/templates/weather" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\static\css" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\static" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\static\Images\styles" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather\templates\weather" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject" />
-      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\WeatherProject\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather\templates\weather" />
@@ -52,7 +55,49 @@
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather_app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WeatherProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="streakbot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WeatherProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../discordStreak" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../discordStreak/streakbot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WeatherProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.streakbot" />
         <item itemvalue="Python.urls" />
       </list>
     </recent_temporary>
@@ -124,42 +171,63 @@
       <option name="project" value="LOCAL" />
       <updated>1585778997085</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating html page">
+      <created>1585862179509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585862179510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/WeatherWebApp" />
+    </ignored-roots>
     <MESSAGE value="created and linked page" />
     <MESSAGE value="learning html" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning html" />
+    <MESSAGE value="creating html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1585822017656">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3302" y="51" key="CommitChangelistDialog2" timestamp="1585862178594">
+      <screen x="2560" y="0" width="1440" height="860" />
     </state>
     <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585822017656" />
-    <state width="1863" height="248" key="GridCell.Tab.0.bottom" timestamp="1585817924011">
+    <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1585862178594" />
+    <state width="1651" height="61" key="GridCell.Tab.0.bottom" timestamp="1586086063808">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1863" height="248" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585817924011" />
-    <state width="1863" height="248" key="GridCell.Tab.0.center" timestamp="1585817924011">
+    <state width="1651" height="61" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586086063808" />
+    <state width="1651" height="61" key="GridCell.Tab.0.center" timestamp="1586086063808">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1863" height="248" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585817924011" />
-    <state width="1863" height="248" key="GridCell.Tab.0.left" timestamp="1585817924011">
+    <state width="1651" height="61" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586086063808" />
+    <state width="1651" height="61" key="GridCell.Tab.0.left" timestamp="1586086063808">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1863" height="248" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585817924011" />
-    <state width="1863" height="248" key="GridCell.Tab.0.right" timestamp="1585817924011">
+    <state width="1651" height="61" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586086063808" />
+    <state width="1651" height="61" key="GridCell.Tab.0.right" timestamp="1586086063808">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1863" height="248" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585817924011" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1585778998144">
+    <state width="1651" height="61" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586086063808" />
+    <state x="1083" y="287" key="SettingsEditor" timestamp="1586085582748">
       <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
+    <state x="3184" y="274" key="Vcs.Push.Dialog.v2" timestamp="1585862182396">
+      <screen x="2560" y="0" width="1440" height="860" />
     </state>
     <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778998144" />
+    <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1585862182396" />
+    <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1295" y="0" width="1281" height="1094" key="dock-window-1/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586090133520" />
   </component>
 </project>
