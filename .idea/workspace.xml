@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/templates/weather/stylesheet.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585862179510</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="working on designing header">
+      <created>1586111431176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586111431176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,17 +191,18 @@
     <MESSAGE value="created and linked page" />
     <MESSAGE value="learning html" />
     <MESSAGE value="creating html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating html page" />
+    <MESSAGE value="working on designing header" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on designing header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="3302" y="51" key="CommitChangelistDialog2" timestamp="1585862178594">
-      <screen x="2560" y="0" width="1440" height="860" />
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586111430325">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585822017656" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586111430325" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1585862178594" />
     <state width="1651" height="61" key="GridCell.Tab.0.bottom" timestamp="1586086063808">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -220,14 +224,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="3184" y="274" key="Vcs.Push.Dialog.v2" timestamp="1585862182396">
-      <screen x="2560" y="0" width="1440" height="860" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586111432861">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778998144" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586111432861" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1585862182396" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586090133520" />
+    <state x="286" y="340" width="672" height="678" key="search.everywhere.popup" timestamp="1586295762345">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="286" y="340" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586295762345" />
   </component>
 </project>

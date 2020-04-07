@@ -3,6 +3,7 @@
 
 <head>
     <title> Weather Web App </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}">
 </head>
 
@@ -24,16 +25,38 @@
 
             </div>
 
+            <nav id = "main-nav">
+
+        <ul class= "navigation">
+
+            <a><li> Home</li></a>
+            <a><li> About</li></a>
+            <a><li> Contact</li></a>
 
 
+        </ul>
+
+    </nav>
+        </div>
+
+    </header>
+
+<div id="main-body">
+
+
+    <div class="search-box">
+
+        <div class="container">
+        <input type="text" name="search-box" placeholder="Enter a town,city or UK postcode">
+                        <button> search </button>
 
         </div>
 
+    </div>
 
 
 
-
-    </header>
+</div>
 
 
 
