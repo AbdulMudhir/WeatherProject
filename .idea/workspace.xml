@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586111431176</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added search box">
+      <created>1586296809448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586296809448</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,17 +201,18 @@
     <MESSAGE value="learning html" />
     <MESSAGE value="creating html page" />
     <MESSAGE value="working on designing header" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on designing header" />
+    <MESSAGE value="added search box" />
+    <option name="LAST_COMMIT_MESSAGE" value="added search box" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586111430325">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586296808687">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586111430325" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586296808687" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1585862178594" />
     <state width="1651" height="61" key="GridCell.Tab.0.bottom" timestamp="1586086063808">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -224,15 +234,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586111432861">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586296814998">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586111432861" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586296814998" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1585862182396" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586090133520" />
+    <state x="3021" y="74" key="refactoring.ChangeSignatureDialog" timestamp="1586368129898">
+      <screen x="2560" y="0" width="1440" height="860" />
+    </state>
+    <state x="3021" y="74" key="refactoring.ChangeSignatureDialog/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586368129898" />
     <state x="286" y="340" width="672" height="678" key="search.everywhere.popup" timestamp="1586295762345">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

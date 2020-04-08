@@ -46,6 +46,8 @@
     font-size:40px;
     font-weight:bold;
     padding-left:10px;
+        text-shadow: 2px 2px #000;
+
 
 
 }
@@ -76,6 +78,8 @@
     display: table;
     float:left;
     padding: 0px 20px;
+            text-shadow: 2px 2px #000;
+
 
 
 }
@@ -117,7 +121,7 @@
     display:block;
 }
 
-#main-body .search-box{
+#main-body .inner-container{
 
     width:800px;
     height:100%;
@@ -126,29 +130,60 @@
     background-color:#0091CF;
 
 
+
+
 }
 
 #main-body .container{
     background-color:#0091CF;
     margin:0 auto;
-    text-align:center;
     border:0;
     height:100%;
     width: 80%;
-        display: block;
+    display: block;
+
 
 
 }
+
 
 #main-body input{
    position:relative;
     top:90%;
     width: 80%;
     height:30px;
+    border: 1px solid;
+    margin-top:10px;
+    margin-left:35px;
+
+
 
 
 
 }
+
+#main-body .box{
+    position:relative;
+    top:1%;
+    display: block;
+    background-color:white;
+    border-radius:10px;
+    margin-left:35px;
+    width:80%;
+    height:90%
+
+
+
+
+
+}
+#main-body h1{
+
+    font-family:arial ;
+    text-align:center;
+
+}
+
 #main-body button{
 
     position:relative;
@@ -156,7 +191,17 @@
     left:0%;
     width: 10%;
     height:30px;
+    border: 1px solid;
     font-family: arial;
+    border-radius:5px;
+
+
+
+}
+
+#main-body button:active{
+
+   background:lightgrey;
 
 
 
