@@ -24,7 +24,7 @@ def homepage(request):
                'sunset': weather_report['sys']['sunset'],
                'timezone': weather_report['timezone'],
                'timeNow': timeNow,
-               'icon': f"http://openweathermap.org/img/w/{weather_report['weather'][0]['icon']}.png"
+               'icon': f"{weather_report['weather'][0]['icon']}"
                }
 
 

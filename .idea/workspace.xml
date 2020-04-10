@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="added search box">
-      <change afterPath="$PROJECT_DIR$/weather/templates/base.html" afterDir="false" />
+    <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/templates/weather/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586372051159</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="weather app">
+      <created>1586526007306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586526007306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,17 +224,18 @@
     <MESSAGE value="working on designing header" />
     <MESSAGE value="updated a div" />
     <MESSAGE value="added search box" />
-    <option name="LAST_COMMIT_MESSAGE" value="added search box" />
+    <MESSAGE value="weather app" />
+    <option name="LAST_COMMIT_MESSAGE" value="weather app" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586451151296">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586526006328">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586451151296" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586526006328" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -255,10 +261,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="3184" y="274" key="Vcs.Push.Dialog.v2" timestamp="1586372045602">
-      <screen x="2560" y="0" width="1440" height="860" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586526008748">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586296814998" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586526008748" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
