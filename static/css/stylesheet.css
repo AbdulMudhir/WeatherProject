@@ -1,208 +1,49 @@
 
 
-*{
-    margin:0;
-    padding:0;
-    list-style:none;
-    text-decoration:none;
-}
 
 
-#main-header {
+.bg-blue {
 
     background-color:#0091CF;
-    width:100%;
-    height:80px;
-    display:block;
-
-}
-
-#main-header .container{
-
-    width:1000px;
-    height:100%;
-    display: block;
-    margin:0 auto;
-    background-color:#0091CF;
 
 
 }
 
-#main-header .logo-container{
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
-    height:100%;
-    display:table;
-    float: left;
+  color: white;
+}
+
+.bg-font{
+
+    font-size:100px;
 
 }
 
-#main-header h1{
+.sm-font{
 
-    color:white;
-    height:100%;
-    display:table-cell;
-    vertical-align:middle;
-    font-family:Arial;
-    font-size:40px;
-    font-weight:bold;
-    padding-left:10px;
-        text-shadow: 2px 2px #000;
-
+    font-size:50px;
 
 
 }
+.stroke {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 
-#main-header img{
+.md-font{
 
-    width: 80px;
-    height:100%;
-    display:table-cell;
-    vertical-align:middle;
-
-
+font-size:80px;
 
 }
 
-
-#main-header #main-nav .navigation{
-
-    float:right;
-    height:100%;
+.center-font{
 
 
-}
-
-#main-header #main-nav .navigation a{
-
-    height:100%;
-    display: table;
-    float:left;
-    padding: 0px 20px;
-            text-shadow: 2px 2px #000;
-
-
-
-}
-
-#main-header #main-nav .navigation a li{
-
-    display:table-cell;
-    vertical-align:middle;
-    height:100%;
-    color:white;
-    font-family: arial;
-    font-size:17px;
-    font-weight: bold;
-
-
-}
-
-
-#main-header #main-nav .navigation a:hover{
-
-    background:orange;
-
-
-
-}
-
-#main-header #main-nav .navigation a:active{
-
-    background:#c7a70a;
-
-
-}
-
-#main-body{
-
-    background-color:#0091CF;
-    width:100%;
-    height:450px;
-    display:block;
-}
-
-#main-body .inner-container{
-
-    width:800px;
-    height:100%;
-    display: block;
-    margin:0 auto;
-    background-color:#0091CF;
-
-
-
-
-}
-
-#main-body .container{
-    background-color:#0091CF;
-    margin:0 auto;
-    border:0;
-    height:100%;
-    width: 80%;
-    display: block;
-
-
-
-}
-
-
-#main-body input{
-   position:relative;
-    top:90%;
-    width: 80%;
-    height:30px;
-    border: 1px solid;
-    margin-top:10px;
-    margin-left:35px;
-
-
-
-
-
-}
-
-#main-body .box{
-    position:relative;
-    top:1%;
-    display: block;
-    background-color:white;
-    border-radius:10px;
-    margin-left:35px;
-    width:80%;
-    height:90%
-
-
-
-
-
-}
-#main-body h1{
-
-    font-family:arial ;
-    text-align:center;
-
-}
-
-#main-body button{
-
-    position:relative;
-    top:90%;
-    left:0%;
-    width: 10%;
-    height:30px;
-    border: 1px solid;
-    font-family: arial;
-    border-radius:5px;
-
-
-
-}
-
-#main-body button:active{
-
-   background:lightgrey;
-
+  text-align: center;
 
 
 }

@@ -1,82 +1,60 @@
+{% extends 'base.html' %}
 
 {% load static %}
 
-<head>
-    <title> Weather Web App </title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}">
-</head>
+{% block body %}
 
-<body>
+<br>
 
-    <header id="main-header">
+    <div class="container bg-blue border border-dark  rounded ">
 
+        <br>
+
+          <div class="container ">
+
+
+    <h1 class="text-white bg-font stroke center-font" >Weather in  {{ name }}, {{ country }}</h1>
+
+          </div>
+
+        <div class="container ">
+
+            <h6 class="text-white md-font stroke center-font"> {{ timeNow }} </h6>
+
+        </div>
 
         <div class="container">
 
-            <div class="logo-container">
-                <img src="{% static 'images/logo.png' %}" alt="Website logo" >
+            <h6 class="text-white sm-font stroke center-font ">  {{ weather }} - {{ description }} </h6>
 
-
-                <h1>
-                    Weather Forecast
-                 </h1>
-
-
-            </div>
-
-            <nav id = "main-nav">
-
-        <ul class= "navigation">
-
-            <a><li> Home</li></a>
-            <a><li> About</li></a>
-            <a><li> Contact</li></a>
-
-
-        </ul>
-
-    </nav>
-        </div>
-
-    </header>
-
-<div id="main-body">
-
-
-    <div class="container">
-
-
-        <div class="inner-container">
-
-            <form method="post">
-            <div class="box">
-
-                <h1> Weather in {}</h1>
-                <p> {}</p>
-                <h2> {} </h2>
-
-            </div>
-                </form>
-
-        <form method="post">
-            {% csrf_token %}
-        <input type="text" name="search-box" placeholder="Enter a town,city or UK postcode">
-            <button> search </button>
-
-            </form>
 
 
         </div>
 
+
+        <div class="container">
+             <h6 class="bg-font text-white  center-font">  <img src="{% static 'images/suncloud.png' %}" width="150" height="150" class="d-inline-block align-top" alt="">
+
+                 {{ temperature }} °C
+
+             </h6>
+
+        </div>
+
+
+
+
+        <div class="container ">
+            <p class="text-white"> Pressure: {{ pressure }} % </p>
+            <p class="text-white "> Humidity: {{ humidity }} %</p>
+
+                  {{ sunrise }}
+                  {{ sunset }}
+                  {{ timezone }}
+
+        </div>
+
+    <br>
 
     </div>
-
-
-
-</div>
-
-
-
-
-
-</body>
+{% endblock %}

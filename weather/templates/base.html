@@ -1,0 +1,55 @@
+
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}">
+
+    {% block head %}
+    <title>Base</title>
+    {% endblock %}
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-light bg-blue  ">
+
+
+  <a class="navbar-brand font-weight-bold text-white" href="/">
+
+          <img src="{% static 'images/logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+
+        Weather Forecast
+  </a>
+    <div class="navbar font-weight-bold ">
+    <input type="text" name="search-box" placeholder="Enter a town, city or UK postcode" maxlength="4" size="50">
+    <button type="submit" class=""> Submit</button>
+    </div>
+
+</nav>
+
+
+
+{% block body %}
+
+
+
+{% endblock %}
+
+<footer class="footer">
+
+
+    <div class="bg-blue">
+
+        <p>
+            Copyright &copy 2020</p>
+
+
+    </div>
+</footer>
+
+
+</body>
+
