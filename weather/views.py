@@ -7,14 +7,22 @@ import time
 
 
 def homepage(request):
-    website = "http://api.openweathermap.org/data/2.5/forecast?q=london,uk&appid="
+    if request.method == "POST":
+
+        form = request.POST['search-box']
+
+        if len(form) > 0:
+            location = ",".join(form.split())
+
+            return render(request, 'weather/homepage.html', weather_data(location))
+
+    return render(request, 'weather/homepage.html', weather_data(None))
+
+
+def weather_data(location):
+    website = f"http://api.openweathermap.org/data/2.5/forecast?q={'london,uk' if location is None else location}&appid="
 
     weather_report = requests.get(website).json()
-
-    # print(test)
-    #
-    # for i in test:
-    #     print(i,test[i])
 
     content = {'data':
                    {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"}
@@ -22,8 +30,6 @@ def homepage(request):
                }
 
     date_checker = ''
-
-
 
     for index, hourly_report in enumerate(weather_report['list']):
 
@@ -36,7 +42,7 @@ def homepage(request):
 
             kev_temp = hourly_report['main'].pop('temp')
 
-            celsius ={'temp': int(kev_temp - 273.15)}
+            celsius = {'temp': int(kev_temp - 273.15)}
 
             hourly_report['main'].update(celsius)
 
@@ -45,7 +51,8 @@ def homepage(request):
             hourly_report['dt'] = timeNow
 
             content['data'][str(index)] = hourly_report
-    return render(request, 'weather/homepage.html', content)
+
+    return content
 
 
 def weather_about(request):
