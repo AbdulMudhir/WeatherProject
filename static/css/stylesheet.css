@@ -53,3 +53,34 @@ font-size:60px;
 font-size:20px;
 
 }
+.form{
+
+margin:0;
+padding:0;
+
+}
+
+.pd-right{
+
+padding-left:8px;
+
+}
+.container .pressure-bar{
+    width: 45%;
+    margin: auto;
+}
+
+.weekdays{
+
+    padding-left:0px;
+
+
+}
+
+
+.weekdays li{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+
+}

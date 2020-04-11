@@ -43,19 +43,124 @@
 
 
 
+        <div class="container" >
 
-        <div class="container ">
-            <p class="text-white tiny-font"> <span class="font-weight-bold">Pressure:</span> {{ pressure }}%<br>
-                <span class="font-weight-bold">Humidity</span>: {{ humidity }}%<br>
-                <span class="font-weight-bold">Wind:</span> {{ wind }} <span class="font-weight-bold">mph</span>
-            </p>
+            <ul class="pressure-bar list-group list-group-horizontal text-white">
 
+            <li class="list-group-item bg-blue">
+                <span class="font-weight-bold">Pressure:</span> {{ pressure }}%
+            </li>
 
-</div>
+                 <li class="list-group-item bg-blue">
+                <span class="font-weight-bold">Humidity</span>: {{ humidity }}%
+            </li>
 
+                <li class="list-group-item bg-blue ">
+                    <span class="font-weight-bold ">Wind:</span> {{ wind }} <span class="font-weight-bold">m/s</span>
+
+                </li>
+
+            </ul>
 
         </div>
 
 
-    </div>
+    </div>  <!-- end of weather container -->
+
+<br>
+<div class="weekdays container auto-mx  ", style=" display: flex; justify-content: center;">
+
+    <ul class="list-group list-group-horizontal ">
+
+
+
+        <li class=" border border-dark " style="margin-left:10px;  ">
+
+        <div class="card" style="width: 10rem;">
+
+            <div class="card-body">
+
+            <h5 class="card-title center-font">Sunday</h5>
+
+                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
+
+                <div class="container">
+                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
+                    </div>
+            </div>
+
+        </div>
+
+           </li>
+
+
+
+
+
+        <li class=" border border-dark " style="margin-left:10px; ">
+
+        <div class="card" style="width: 10rem;">
+
+            <div class="card-body">
+
+            <h5 class="card-title center-font">Sunday</h5>
+
+                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
+
+                <div class="container">
+                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
+                    </div>
+            </div>
+
+        </div>
+
+           </li>
+
+
+        <li class=" border border-dark " style="margin-left:10px; ">
+
+        <div class="card" style="width: 10rem;">
+
+            <div class="card-body">
+
+            <h5 class="card-title center-font">Sunday</h5>
+
+                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
+
+                <div class="container">
+                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
+                    </div>
+            </div>
+
+        </div>
+
+           </li>
+
+
+        <li class=" border border-dark " style="margin-left:10px; ">
+
+        <div class="card" style="width: 10rem;">
+
+            <div class="card-body">
+
+            <h5 class="card-title center-font">Sunday</h5>
+
+                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
+
+                <div class="container">
+                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
+                    </div>
+            </div>
+
+        </div>
+
+           </li>
+
+
+
+    </ul> <!-- end of weekday container -->
+
+
+</div>
+
 {% endblock %}

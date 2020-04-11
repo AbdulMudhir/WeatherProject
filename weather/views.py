@@ -7,7 +7,7 @@ import time
 
 
 def homepage(request):
-    website = "http://api.openweathermap.org/data/2.5/weather?q=london,uk&appid=39834b9c3a416570d2846cb396d2d22e"
+    website = "http://api.openweathermap.org/data/2.5/weather?q=london,uk&appid="
 
     weather_report = requests.get(website).json()
 
@@ -36,7 +36,7 @@ def homepage(request):
 
             location = ",".join(form.split())
 
-            website = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid=39834b9c3a416570d2846cb396d2d22e"
+            website = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid="
 
             weather_report = requests.get(website).json()
 
