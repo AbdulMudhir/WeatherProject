@@ -14,7 +14,12 @@ def homepage(request):
         if len(form) > 0:
             location = ",".join(form.split())
 
-            return render(request, 'weather/homepage.html', weather_data(location))
+            if weather_data(location) is not None:
+
+                return render(request, 'weather/homepage.html', weather_data(location))
+
+            else:
+                return render(request, 'weather/unknown.html')
 
     return render(request, 'weather/homepage.html', weather_data(None))
 
@@ -26,39 +31,45 @@ def weather_data(location):
 
     website = f"http://api.openweathermap.org/data/2.5/forecast?q={'london,uk' if location is None else location}&appid={api_key}"
 
-
     weather_report = requests.get(website).json()
 
+    check_location = weather_report.get('message')
 
-    content = {'data':
-                   {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"}
+    if check_location != "city not found":
 
-               }
+        content = {'data':
+                       {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"}
 
-    date_checker = ''
+                   }
 
-    for index, hourly_report in enumerate(weather_report['list']):
+        date_checker = ''
 
-        weather_data = hourly_report['dt_txt'].split()[0]
+        for index, hourly_report in enumerate(weather_report['list']):
 
-        if weather_data != date_checker:
-            date_checker = weather_data
+            weather_info = hourly_report['dt_txt'].split()[0]
 
-            epoch_time = hourly_report.pop('dt')
+            if weather_info != date_checker:
+                date_checker = weather_info
 
-            kev_temp = hourly_report['main'].pop('temp')
+                epoch_time = hourly_report.pop('dt')
 
-            celsius = {'temp': int(kev_temp - 273.15)}
+                kev_temp = hourly_report['main'].pop('temp')
 
-            hourly_report['main'].update(celsius)
+                celsius = {'temp': int(kev_temp - 273.15)}
 
-            timeNow = time.strftime('%A %H:%M %p', time.localtime(epoch_time))
+                hourly_report['main'].update(celsius)
 
-            hourly_report['dt'] = timeNow
+                timeNow = time.strftime('%A %H:%M %p', time.localtime(epoch_time))
 
-            content['data'][str(index)] = hourly_report
+                hourly_report['dt'] = timeNow
 
-    return content
+                content['data'][str(index)] = hourly_report
+
+        return content
+
+    else:
+
+        return None
 
 
 def weather_about(request):
