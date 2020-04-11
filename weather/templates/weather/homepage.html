@@ -13,19 +13,17 @@
           <div class="container ">
 
 
-    <h1 class="text-white bg-font stroke center-font" >Weather in  {{ name }}, {{ country }} </h1>
+    <h1 class="text-white bg-font stroke center-font" >Weather in   {{ data.country }} </h1>
 
           </div>
 
         <div class="container ">
-
-            <h6 class="text-white md-font stroke center-font"> {{ timeNow }} </h6>
-
+            <h6 class="text-white md-font stroke center-font"> {{ data.0.dt }}</h6>
         </div>
 
         <div class="container">
 
-            <h6 class="text-white sm-font stroke center-font ">  {{ weather }} - {{ description }} </h6>
+            <h6 class="text-white sm-font stroke center-font ">  {{ data.0.weather.0.main }} - {{ data.0.weather.0.description }} </h6>
 
 
 
@@ -33,9 +31,9 @@
 
 
         <div class="container">
-             <h6 class="bg-font text-white  center-font">  <img src="{% static 'images/'%}{{ icon }}.png" width="150" height="150" class="d-inline-block align-top" alt="">
+             <h6 class="bg-font text-white  center-font">  <img src="{% static 'images/'%}{{ data.0.weather.0.icon }}.png" width="150" height="150" class="d-inline-block align-top" alt="">
 
-                 {{ temperature }} °C
+                 {{ data.0.main.temp }} °C
 
              </h6>
 
@@ -48,15 +46,15 @@
             <ul class="pressure-bar list-group list-group-horizontal text-white">
 
             <li class="list-group-item bg-blue">
-                <span class="font-weight-bold">Pressure:</span> {{ pressure }}%
+                <span class="font-weight-bold">Pressure:</span> {{ data.0.main.pressure }}
             </li>
 
                  <li class="list-group-item bg-blue">
-                <span class="font-weight-bold">Humidity</span>: {{ humidity }}%
+                <span class="font-weight-bold">Humidity</span>: {{ data.0.main.humidity }}%
             </li>
 
                 <li class="list-group-item bg-blue ">
-                    <span class="font-weight-bold ">Wind:</span> {{ wind }} <span class="font-weight-bold">m/s</span>
+                    <span class="font-weight-bold ">Wind:</span> {{ data.0.wind.speed }} <span class="font-weight-bold">m/s</span>
 
                 </li>
 
@@ -68,11 +66,13 @@
     </div>  <!-- end of weather container -->
 
 <br>
-<div class="weekdays container auto-mx  ", style=" display: flex; justify-content: center;">
+<div class="weekdays container auto-mx " >
 
     <ul class="list-group list-group-horizontal ">
 
+        {% for index, daily_report in data.items %}
 
+        {% if forloop.counter > 2 %}
 
         <li class=" border border-dark " style="margin-left:10px;  ">
 
@@ -80,32 +80,9 @@
 
             <div class="card-body">
 
-            <h5 class="card-title center-font">Sunday</h5>
+            <h5 class="card-title center-font">{{ daily_report.dt }}</h5>
 
-                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
-
-                <div class="container">
-                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
-                    </div>
-            </div>
-
-        </div>
-
-           </li>
-
-
-
-
-
-        <li class=" border border-dark " style="margin-left:10px; ">
-
-        <div class="card" style="width: 10rem;">
-
-            <div class="card-body">
-
-            <h5 class="card-title center-font">Sunday</h5>
-
-                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
+                <img src="{% static 'images/'%}{{ daily_report.weather.0.icon }}.png" class="card-img-top" alt="...">
 
                 <div class="container">
                     <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
@@ -115,46 +92,8 @@
         </div>
 
            </li>
-
-
-        <li class=" border border-dark " style="margin-left:10px; ">
-
-        <div class="card" style="width: 10rem;">
-
-            <div class="card-body">
-
-            <h5 class="card-title center-font">Sunday</h5>
-
-                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
-
-                <div class="container">
-                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
-                    </div>
-            </div>
-
-        </div>
-
-           </li>
-
-
-        <li class=" border border-dark " style="margin-left:10px; ">
-
-        <div class="card" style="width: 10rem;">
-
-            <div class="card-body">
-
-            <h5 class="card-title center-font">Sunday</h5>
-
-                <img src="{% static 'images/11d.png' %}" class="card-img-top" alt="...">
-
-                <div class="container">
-                    <a href="#" class="btn bg-blue text-white" style="font-size:12px;">More Info</a>
-                    </div>
-            </div>
-
-        </div>
-
-           </li>
+        {% endif %}
+        {% endfor %}
 
 
 

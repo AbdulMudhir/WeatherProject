@@ -72,7 +72,10 @@ padding-left:8px;
 
 .weekdays{
 
-    padding-left:0px;
+    display: flex;
+    justify-content: center;
+        padding-left:0px;
+
 
 
 }

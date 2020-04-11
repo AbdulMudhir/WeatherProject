@@ -4,9 +4,8 @@
     <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/templates/weather/unknown.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/unknown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.views">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WeatherProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +116,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WeatherProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weather" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.views" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.streakbot" />
         <item itemvalue="Python.urls" />
@@ -225,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586599180818</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="vertical align weekdays">
+      <created>1586627739539</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586627739539</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,46 +269,47 @@
     <MESSAGE value="weather app" />
     <MESSAGE value="added weather icon" />
     <MESSAGE value="handle unknown location" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle unknown location" />
+    <MESSAGE value="vertical align weekdays" />
+    <option name="LAST_COMMIT_MESSAGE" value="vertical align weekdays" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586599180124">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586627738788">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586599180124" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586627738788" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1116" y="584" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586373362033" />
-    <state width="1357" height="2" key="GridCell.Tab.0.bottom" timestamp="1586373363291">
+    <state width="1269" height="350" key="GridCell.Tab.0.bottom" timestamp="1586637189418">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1357" height="2" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586373363291" />
-    <state width="1357" height="2" key="GridCell.Tab.0.center" timestamp="1586373363291">
+    <state width="1269" height="350" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586637189418" />
+    <state width="1269" height="350" key="GridCell.Tab.0.center" timestamp="1586637189418">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1357" height="2" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586373363291" />
-    <state width="1357" height="2" key="GridCell.Tab.0.left" timestamp="1586373363291">
+    <state width="1269" height="350" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586637189418" />
+    <state width="1269" height="350" key="GridCell.Tab.0.left" timestamp="1586637189418">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1357" height="2" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586373363291" />
-    <state width="1357" height="2" key="GridCell.Tab.0.right" timestamp="1586373363291">
+    <state width="1269" height="350" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586637189418" />
+    <state width="1269" height="350" key="GridCell.Tab.0.right" timestamp="1586637189418">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1357" height="2" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586373363291" />
+    <state width="1269" height="350" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586637189418" />
     <state x="1083" y="287" key="SettingsEditor" timestamp="1586085582748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586599183159">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586627741210">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586599183159" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586627741210" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />

@@ -7,68 +7,44 @@ import time
 
 
 def homepage(request):
-    website = "http://api.openweathermap.org/data/2.5/weather?q=london,uk&appid="
+    website = "http://api.openweathermap.org/data/2.5/forecast?q=london,uk&appid="
 
     weather_report = requests.get(website).json()
 
-    timeNow = time.strftime('%A %H:%M %p', time.localtime(weather_report['dt']))
+    # print(test)
+    #
+    # for i in test:
+    #     print(i,test[i])
 
-    content = {'name': weather_report['name'],
-               'country': weather_report['sys']['country'],
-               'temperature': int(weather_report['main']['temp'] - 273.15),
-               'weather': weather_report['weather'][0]['main'],
-               'description': weather_report['weather'][0]['description'],
-               'pressure': weather_report['main']['pressure'],
-               'humidity': weather_report['main']['humidity'],
-               'wind': weather_report['wind']['speed'],
-               'sunrise': weather_report['sys']['sunrise'],
-               'sunset': weather_report['sys']['sunset'],
-               'timezone': weather_report['timezone'],
-               'timeNow': timeNow,
-               'icon': f"{weather_report['weather'][0]['icon']}"
+    content = {'data':
+                   {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"}
+
                }
 
-    if request.method == "POST":
+    date_checker = ''
 
-        form = request.POST['search-box']
 
-        if len(form) > 0:
 
-            location = ",".join(form.split())
+    for index, hourly_report in enumerate(weather_report['list']):
 
-            website = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid="
+        weather_data = hourly_report['dt_txt'].split()[0]
 
-            weather_report = requests.get(website).json()
+        if weather_data != date_checker:
+            date_checker = weather_data
 
-            check_location = weather_report.get('message')
+            epoch_time = hourly_report.pop('dt')
 
-            if check_location is None:
+            kev_temp = hourly_report['main'].pop('temp')
 
-                timeNow = time.strftime('%A %H:%M %p', time.localtime(weather_report['dt']))
+            celsius ={'temp': int(kev_temp - 273.15)}
 
-                content = {'name': weather_report['name'],
-                           'country': weather_report['sys']['country'],
-                           'temperature': int(weather_report['main']['temp'] - 273.15),
-                           'weather': weather_report['weather'][0]['main'],
-                           'description': weather_report['weather'][0]['description'],
-                           'pressure': weather_report['main']['pressure'],
-                           'humidity': weather_report['main']['humidity'],
-                           'wind': weather_report['wind']['speed'],
-                           'sunrise': weather_report['sys']['sunrise'],
-                           'sunset': weather_report['sys']['sunset'],
-                           'timezone': weather_report['timezone'],
-                           'timeNow': timeNow,
-                           'icon': f"{weather_report['weather'][0]['icon']}"
-                           }
+            hourly_report['main'].update(celsius)
 
-                return render(request, 'weather/homepage.html', content)
+            timeNow = time.strftime('%A %H:%M %p', time.localtime(epoch_time))
 
-            else:
+            hourly_report['dt'] = timeNow
 
-                timeNow = time.strftime('%A %H:%M %p', time.localtime(time.time()))
-
-                return render(request, 'weather/unknown.html', {'timeNow':timeNow})
-
+            content['data'][str(index)] = hourly_report
     return render(request, 'weather/homepage.html', content)
 
 
