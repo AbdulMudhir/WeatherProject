@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/weather/templates/weather/unknown.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
@@ -35,22 +35,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weather/templates/weather" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather\templates\weather" />
+      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\WeatherProject" />
+      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather" />
+      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather_app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\static\css" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\static" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\static\Images\styles" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather\templates\weather" />
       <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather\templates\weather" />
-      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\WeatherProject" />
-      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather" />
-      <recent name="C:\Users\Abdul\PycharmProjects\WeatherProject\weather_app" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586526007306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added weather icon">
+      <created>1586529219791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586529219791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,17 +232,18 @@
     <MESSAGE value="updated a div" />
     <MESSAGE value="added search box" />
     <MESSAGE value="weather app" />
-    <option name="LAST_COMMIT_MESSAGE" value="weather app" />
+    <MESSAGE value="added weather icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weather icon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586526006328">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586529219073">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586526006328" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586529219073" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -261,10 +269,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586526008748">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586529221708">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586526008748" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586529221708" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />

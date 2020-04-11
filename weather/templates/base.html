@@ -19,13 +19,22 @@
 
   <a class="navbar-brand font-weight-bold text-white" href="/">
 
+
+
           <img src="{% static 'images/logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
 
         Weather Forecast
   </a>
     <div class="navbar font-weight-bold ">
-    <input type="text" name="search-box" placeholder="Enter a town, city or UK postcode" maxlength="4" size="50">
+
+        <form method="post">
+
+             {% csrf_token %}
+
+    <input type="text" name="search-box" placeholder="Enter a town, city or country " size="50">
     <button type="submit" class=""> Submit</button>
+
+            </form>
     </div>
 
 </nav>
