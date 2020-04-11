@@ -20,9 +20,15 @@ def homepage(request):
 
 
 def weather_data(location):
-    website = f"http://api.openweathermap.org/data/2.5/forecast?q={'london,uk' if location is None else location}&appid="
+    file_path = r"C:\Users\Abdul\PycharmProjects\WeatherProject\apikey.txt"
+
+    api_key = open(file_path, 'r').read().strip()
+
+    website = f"http://api.openweathermap.org/data/2.5/forecast?q={'london,uk' if location is None else location}&appid={api_key}"
+
 
     weather_report = requests.get(website).json()
+
 
     content = {'data':
                    {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"}
