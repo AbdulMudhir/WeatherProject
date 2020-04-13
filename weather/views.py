@@ -32,7 +32,7 @@ def homepage(request):
 
 
 def weather_data(location):
-    file_path = r"C:\Users\Abdul\PycharmProjects\WeatherProject\apikey.txt"
+    file_path = r"apikey.txt"
 
     api_key = open(file_path, 'r').read().strip()
 

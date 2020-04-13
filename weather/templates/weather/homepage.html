@@ -136,7 +136,7 @@
          {% for day_info in days_info %}
 
 
-        <td> {{ day_info.weather.0.description }}</td>
+        <td class=""> <img src="{% static 'images/'%}{{ day_info.weather.0.icon }}.png" width="50" height="50" class="d-inline-block align-top" alt="">{{ day_info.weather.0.description }}</td>
 
 
 
