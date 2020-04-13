@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
+    <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="changed Procfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +335,35 @@
       <option name="project" value="LOCAL" />
       <updated>1586792015949</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changed Procfile">
+      <created>1586792147218</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586792147218</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test">
+      <created>1586792722353</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586792722353</updated>
+    </task>
+    <task id="LOCAL-00027" summary="changed Procfile">
+      <created>1586792758871</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586792758871</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated api key">
+      <created>1586792855302</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586792855302</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,7 +392,10 @@
     <MESSAGE value="commit for heroku" />
     <MESSAGE value="added Procfile" />
     <MESSAGE value="changed debug true" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed debug true" />
+    <MESSAGE value="test" />
+    <MESSAGE value="changed Procfile" />
+    <MESSAGE value="updated api key" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated api key" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1494" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586791811045">
@@ -375,42 +406,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586792015246">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586792854559">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641311202" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586792015246" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586792854559" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1116" y="584" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586373362033" />
-    <state width="1269" height="350" key="GridCell.Tab.0.bottom" timestamp="1586641318667">
+    <state width="706" height="352" key="GridCell.Tab.0.bottom" timestamp="1586793970255">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1269" height="350" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641318667" />
-    <state width="1269" height="350" key="GridCell.Tab.0.center" timestamp="1586641318666">
+    <state width="706" height="352" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586793970255" />
+    <state width="706" height="352" key="GridCell.Tab.0.center" timestamp="1586793970255">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1269" height="350" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641318666" />
-    <state width="1269" height="350" key="GridCell.Tab.0.left" timestamp="1586641318666">
+    <state width="706" height="352" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586793970255" />
+    <state width="706" height="352" key="GridCell.Tab.0.left" timestamp="1586793970255">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1269" height="350" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641318666" />
-    <state width="1269" height="350" key="GridCell.Tab.0.right" timestamp="1586641318667">
+    <state width="706" height="352" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586793970255" />
+    <state width="706" height="352" key="GridCell.Tab.0.right" timestamp="1586793970255">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1269" height="350" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641318667" />
+    <state width="706" height="352" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586793970255" />
     <state x="1083" y="287" key="SettingsEditor" timestamp="1586085582748">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586792017018">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586792148209">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641313039" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586792017018" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586792148209" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

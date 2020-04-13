@@ -9,7 +9,6 @@ import time
 def homepage(request):
     if request.method == "POST":
 
-        print(request.POST)
 
         form = request.POST.get('search-box')
 
