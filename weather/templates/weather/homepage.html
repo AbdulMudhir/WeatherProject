@@ -120,7 +120,9 @@
     <tr>
         <th scope="col" class="text-white ">Time</th>
         {% for day in full_data %}
+            {% if forloop.counter < 6 %}
           <th scope="col" class="text-white">{{ day }}</th>
+        {% endif %}
         {% endfor %}
     </tr>
   </thead>
@@ -132,6 +134,7 @@
 
       <th scope="row">{{ hour }}</th>
          {% for day_info in days_info %}
+
 
         <td> {{ day_info.weather.0.description }}</td>
 

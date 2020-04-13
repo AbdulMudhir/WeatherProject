@@ -72,27 +72,31 @@ def weather_data(location):
                 date_checker = weather_info
                 content['data'][str(index)] = hourly_report
 
+            day = timeNow.split()[0]
+            retrieve_time = hourly_report['dt_txt'].split()[1]
+
+            if day not in content['full_data']:
+
+                content['full_data'][day] = [hourly_report]
+
             else:
+                hourly_report['time'] = retrieve_time
+                content['full_data'][day].append(hourly_report)
 
-                day = timeNow.split()[0]
-                retrieve_time = hourly_report['dt_txt'].split()[1]
+            if retrieve_time not in content['hourly_data']:
 
-                if day not in content['full_data']:
+                content['hourly_data'][retrieve_time] = [hourly_report]
 
-                    content['full_data'][day] = [hourly_report]
+            else:
+                content['hourly_data'][retrieve_time].append(hourly_report)
 
-                else:
-                    hourly_report['time'] = retrieve_time
-                    content['full_data'][day].append(hourly_report)
+        data_info_by_hour = content.pop('hourly_data')
 
-                if str(retrieve_time) not in content['hourly_data']:
+        sorting_hour = {key: value for key, value in sorted(data_info_by_hour.items())}
 
-                    content['hourly_data'][str(retrieve_time)] = [hourly_report]
+        content['hourly_data'] = sorting_hour
 
-                else:
-                    content['hourly_data'][str(retrieve_time)].append(hourly_report)
 
-        print(content['full_data'])
         return content
 
     else:
