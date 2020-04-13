@@ -4,11 +4,11 @@ from django.http import HttpResponseRedirect
 from django.contrib import messages
 import requests
 import time
+import os
 
 
 def homepage(request):
     if request.method == "POST":
-
 
         form = request.POST.get('search-box')
 
@@ -31,9 +31,8 @@ def homepage(request):
 
 
 def weather_data(location):
-    file_path = r"apikey.txt"
 
-    api_key = open(file_path, 'r').read().strip()
+    api_key = os.environ.get("API_KEY")
 
     website = f"http://api.openweathermap.org/data/2.5/forecast?q={'london,uk' if location is None else location}&appid={api_key}"
 
@@ -94,7 +93,6 @@ def weather_data(location):
         sorting_hour = {key: value for key, value in sorted(data_info_by_hour.items())}
 
         content['hourly_data'] = sorting_hour
-
 
         return content
 
