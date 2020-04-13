@@ -307,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586790392605</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="turned off debugging">
+      <created>1586791191454</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586791191454</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit for heroku">
+      <created>1586791375258</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586791375258</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -332,19 +346,25 @@
     <MESSAGE value="fixed some missing data" />
     <MESSAGE value="updated api key path" />
     <MESSAGE value="comitting rest of files" />
-    <option name="LAST_COMMIT_MESSAGE" value="comitting rest of files" />
+    <MESSAGE value="turned off debugging" />
+    <MESSAGE value="commit for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit for heroku" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1494" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586791811045">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1494" y="507" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791811045" />
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585778843878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586791190770">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586791374586">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641311202" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791190770" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791374586" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -369,12 +389,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586791192604">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586791376835">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641313039" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791192604" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791376835" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
