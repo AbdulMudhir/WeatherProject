@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53e1dd54-7eed-4146-a174-817a90a65985" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherProject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,14 +404,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586795690536</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="disable debug">
+      <created>1586796024215</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586796024215</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/WeatherWebApp" />
     </ignored-roots>
-    <MESSAGE value="added search box" />
     <MESSAGE value="weather app" />
     <MESSAGE value="added weather icon" />
     <MESSAGE value="handle unknown location" />
@@ -437,7 +442,8 @@
     <MESSAGE value="staticfile test" />
     <MESSAGE value="server error" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="disable debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable debug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1494" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586791811045">
@@ -448,12 +454,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586795689866">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586796642849">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641311202" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586795689866" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586796642849" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -482,12 +488,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586795691741">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586796025503">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641313039" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586795691741" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586796025503" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
