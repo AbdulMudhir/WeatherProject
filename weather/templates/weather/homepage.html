@@ -35,7 +35,7 @@
 
 
         <div class="container">
-             <h6 class="bg-font text-white  center-font">  <img src="{% static 'images/'%}{{ data.0.weather.0.icon }}.png" width="150" height="150" class="d-inline-block align-top" alt="">
+             <h6 class="bg-font text-white  center-font">  <img src="https://storage.googleapis.com/weather-project-app/{{ data.0.weather.0.icon }}.png" width="150" height="150" class="d-inline-block align-top" alt="">
 
                  {{ data.0.main.temp }} °C
 
@@ -91,7 +91,7 @@
 
             <h5 class="card-title center-font">{{ daily_report.dt }}</h5>
 
-                <img src="{% static 'images/'%}{{ daily_report.weather.0.icon }}.png" class="card-img-top" alt="...">
+                <img src="https://storage.googleapis.com/weather-project-app/{{ daily_report.weather.0.icon }}.png" class="card-img-top" alt="...">
 
                 <div class="container">
 
@@ -140,7 +140,7 @@
          {% for day_info in days_info %}
 
 
-        <td class=""> <img src="{% static 'images/'%}{{ day_info.weather.0.icon }}.png" width="50" height="50" class="d-inline-block align-top" alt="">{{ day_info.weather.0.description }}</td>
+        <td class=""> <img src="https://storage.googleapis.com/weather-project-app/{{ day_info.weather.0.icon }}.png" width="50" height="50" class="d-inline-block align-top" alt="">{{ day_info.weather.0.description }}</td>
 
 
 

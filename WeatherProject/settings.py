@@ -25,6 +25,7 @@ SECRET_KEY = '=d(y^sfrto+z%h3=0n-$%)mz%l6g)8h0*+1%9)^$9o_7!aww2='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
 ALLOWED_HOSTS = []
 
 
@@ -119,7 +120,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Extra places for collect static to find static files.
@@ -127,6 +127,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 django_heroku.settings(locals())
