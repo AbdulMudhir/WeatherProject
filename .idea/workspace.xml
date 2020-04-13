@@ -321,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586791375258</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added Procfile">
+      <created>1586791902366</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586791902366</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,7 +355,8 @@
     <MESSAGE value="comitting rest of files" />
     <MESSAGE value="turned off debugging" />
     <MESSAGE value="commit for heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for heroku" />
+    <MESSAGE value="added Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Procfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1494" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586791811045">
@@ -359,12 +367,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586791374586">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586791901595">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641311202" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791374586" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791901595" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -389,12 +397,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586791376835">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586791903650">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641313039" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791376835" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586791903650" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
