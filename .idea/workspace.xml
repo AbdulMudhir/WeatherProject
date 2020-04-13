@@ -433,14 +433,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586799833036</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="fixed an issue with server error 500">
+      <created>1586801078040</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1586801078040</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/WeatherWebApp" />
     </ignored-roots>
-    <MESSAGE value="vertical align weekdays" />
     <MESSAGE value="fixed day weather" />
     <MESSAGE value="fixed some data" />
     <MESSAGE value="removed api key and disabled old one" />
@@ -465,7 +471,8 @@
     <MESSAGE value="collect static file" />
     <MESSAGE value="moved static images to cloud" />
     <MESSAGE value="table is cleaner" />
-    <option name="LAST_COMMIT_MESSAGE" value="table is cleaner" />
+    <MESSAGE value="fixed an issue with server error 500" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed an issue with server error 500" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1494" y="507" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586791811045">
@@ -476,12 +483,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1230" y="459" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1585778843878" />
-    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586799832313">
+    <state x="1319" y="308" key="CommitChangelistDialog2" timestamp="1586801077329">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641311202" />
     <state x="3302" y="51" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372051146" />
-    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586799832313" />
+    <state x="1319" y="308" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586801077329" />
     <state x="1116" y="584" key="FileChooserDialogImpl" timestamp="1586373362033">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -510,12 +517,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1083" y="287" key="SettingsEditor/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586085582748" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586799834715">
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2" timestamp="1586801079096">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@0.0.2560.1400" timestamp="1586641313039" />
     <state x="3184" y="274" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.860@2560.0.1440.860" timestamp="1586372045602" />
-    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586799834715" />
+    <state x="1257" y="446" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1440.900@0.0.2560.1400" timestamp="1586801079096" />
     <state x="1295" y="0" width="1281" height="1094" key="dock-window-1" timestamp="1586090133520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
