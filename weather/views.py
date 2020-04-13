@@ -9,17 +9,24 @@ import time
 def homepage(request):
     if request.method == "POST":
 
-        form = request.POST['search-box']
+        print(request.POST)
 
-        if len(form) > 0:
-            location = ",".join(form.split())
+        form = request.POST.get('search-box')
 
-            if weather_data(location) is not None:
+        if form is not None:
 
-                return render(request, 'weather/homepage.html', weather_data(location))
+            if len(form) > 0:
+                location = ",".join(form.split())
 
-            else:
-                return render(request, 'weather/unknown.html')
+                if weather_data(location) is not None:
+
+                    return render(request, 'weather/homepage.html', weather_data(location))
+
+                else:
+                    return render(request, 'weather/unknown.html')
+
+        else:
+            return render(request, 'weather/unknown.html')
 
     return render(request, 'weather/homepage.html', weather_data(None))
 
@@ -37,8 +44,9 @@ def weather_data(location):
 
     if check_location != "city not found":
 
-        content = {'data':
-                       {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"}
+        content = {'data': {'country': f"{weather_report['city']['name']}, {weather_report['city']['country']}"},
+                   'full_data': {},
+                   'hourly_data': {}
 
                    }
 
@@ -48,23 +56,43 @@ def weather_data(location):
 
             weather_info = hourly_report['dt_txt'].split()[0]
 
+            epoch_time = hourly_report.pop('dt')
+
+            kev_temp = hourly_report['main'].pop('temp')
+
+            celsius = {'temp': int(kev_temp - 273.15)}
+
+            hourly_report['main'].update(celsius)
+
+            timeNow = time.strftime('%A %H:%M %p', time.localtime(epoch_time))
+
+            hourly_report['dt'] = timeNow
+
             if weather_info != date_checker:
                 date_checker = weather_info
-
-                epoch_time = hourly_report.pop('dt')
-
-                kev_temp = hourly_report['main'].pop('temp')
-
-                celsius = {'temp': int(kev_temp - 273.15)}
-
-                hourly_report['main'].update(celsius)
-
-                timeNow = time.strftime('%A %H:%M %p', time.localtime(epoch_time))
-
-                hourly_report['dt'] = timeNow
-
                 content['data'][str(index)] = hourly_report
 
+            else:
+
+                day = timeNow.split()[0]
+                retrieve_time = hourly_report['dt_txt'].split()[1]
+
+                if day not in content['full_data']:
+
+                    content['full_data'][day] = [hourly_report]
+
+                else:
+                    hourly_report['time'] = retrieve_time
+                    content['full_data'][day].append(hourly_report)
+
+                if str(retrieve_time) not in content['hourly_data']:
+
+                    content['hourly_data'][str(retrieve_time)] = [hourly_report]
+
+                else:
+                    content['hourly_data'][str(retrieve_time)].append(hourly_report)
+
+        print(content['full_data'])
         return content
 
     else:
